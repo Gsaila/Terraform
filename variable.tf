@@ -12,3 +12,15 @@ variable "azs" {
     type = list
     default = ["us-east-1a", "us-east-1b"]
 }
+variable "amiid" {
+    default = "ami-08d4ac5b634553e16"
+}
+variable "instance_type" {
+    default = "t2.micro"
+}
+variable "number_instances" {
+    default = "1"
+}
+variable "key" {
+    default = "sailaja_keypair"
+}
