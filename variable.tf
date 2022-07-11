@@ -21,6 +21,6 @@ variable "instance_type" {
 variable "number_instances" {
     default = "1"
 }
-variable "key" {
+variable "key_name" {
     default = "sailaja_keypair"
 }
